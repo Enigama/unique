@@ -1,0 +1,281 @@
+/*******************FONTS**************************/
+@font-face {
+  font-family: Bold;
+  src: url(/fonts/RobotoBold/RobotoBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: light;
+  src: url(/fonts/RobotoLight/RobotoLight.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Medium;
+  src: url(/fonts/RobotoMedium/RobotoMedium.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Regular;
+  src: url(/fonts/RobotoRegular/RobotoRegular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Black;
+  src: url(/fonts/RobotoBlack/robotoblack.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SBold;
+  src: url(/fonts/SourceSansProBold/SourceSansProBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: OpenSBold;
+  src: url(/fonts/OpenSansBold/OpenSansBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+.OpenSBo {
+  font-family: "OpenSBold";
+}
+.SB {
+  font-family: "SBold";
+}
+.Bl {
+  font-family: "Black";
+}
+.Bo {
+  font-family: "Bold";
+}
+.Li {
+  font-family: "light";
+}
+.Me {
+  font-family: "Medium";
+}
+.Re {
+  font-family: "Regular";
+}
+/**************************************************/
+/**************************************************/
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  color: #000;
+  -webkit-border-radius: none;
+          border-radius: none;
+  text-decoration: none;
+  border: 0px;
+  padding: 0px;
+}
+/**************************************************/
+header {
+  min-height: 680px;
+  background: #ffc038;
+}
+header nav .container {
+  width: 53.5%;
+  background: #ffc038;
+  margin-top: 50px;
+}
+header nav .container .navbar-header .navbar-brand {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-family: "Black";
+}
+header nav .container .navbar-header .navbar-brand span1 {
+  font-family: "Black";
+  color: #fff;
+  border: 3px solid yellow;
+  padding: 3px 5px;
+}
+header nav .container .navbar-header .navbar-brand span2 {
+  font-family: "Black";
+  padding-left: 7px;
+  color: #464646;
+}
+header nav .container .navbar-header .navbar-brand:hover {
+  color: #464646;
+}
+header .navbar-default {
+  min-height: 120px;
+  background: #ffc038;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+header .navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+  font-family: "Bold";
+  font-size: 14px;
+  color: #595145;
+  text-align: center;
+}
+header .container {
+  width: 53.5%;
+}
+header .container .row .content_header {
+  padding-top: 15px;
+}
+header .container .row .content_header .line_up {
+  margin-left: -120px;
+}
+header .container .row .content_header .text_header {
+  padding-left: 0px;
+}
+header .container .row .content_header .text_header span {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Bold";
+  font-size: 42px;
+}
+header .container .row .content_header .text_header p {
+  width: 360px;
+  color: #fff;
+  font-family: "light";
+  font-size: 16px;
+}
+header .container .row .content_header .text_header .btn-primary {
+  font-family: "Regular";
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+  background: #464646;
+}
+header .container .row .content_header .text_header .btn-primary.active,
+header .container .row .content_header .text_header .btn-primary:active {
+  border: none;
+}
+header .container .row .content_header .corusel_my {
+  margin-top: 25px;
+  padding-left: 0px;
+}
+header .container .row .content_header .corusel_my .carousel-indicators {
+  bottom: -55px;
+}
+header .container .row .content_header .corusel_my .carousel-control.left {
+  display: none;
+}
+header .container .row .content_header .corusel_my .carousel-control.right {
+  display: none;
+}
+main {
+  min-height: 680px;
+}
+main .container {
+  width: 53.5%;
+}
+main .container .first_block {
+  height: 300px;
+}
+main .container .first_block .long_btn .btn-primary {
+  font-family: "SBold";
+  text-transform: uppercase;
+  font-size: 26px;
+  width: 330px;
+  height: 55px;
+  background: #464646;
+}
+main .container .first_block .long_btn .btn-primary.active,
+main .container .first_block .long_btn .btn-primary:active {
+  border: none;
+}
+main .container .first_block .long_btn img {
+  margin-top: 110px;
+}
+main .container .first_blok2 {
+  height: 400px;
+}
+main .container .first_blok2 .right_block span {
+  font-family: "Bold";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+main .container .first_blok2 .right_block p {
+  padding-top: 10px;
+  font-family: "light";
+  font-size: 14px;
+}
+main .container .first_blok2 .right_block .btn-primary {
+  width: 150px;
+  height: 50px;
+  background: #ffc038;
+  border: none;
+  color: #464646;
+  font-family: "OpenSBold";
+  font-size: 12.5px;
+  text-transform: uppercase;
+}
+main .container .second_blok {
+  height: 400px;
+}
+main .container .second_blok .left_block span {
+  font-family: "Bold";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+main .container .second_blok .left_block p {
+  padding-top: 10px;
+  font-family: "light";
+  font-size: 14px;
+}
+main .container .second_blok .left_block .btn-primary {
+  width: 150px;
+  height: 50px;
+  background: #ffc038;
+  border: none;
+  color: #464646;
+  font-family: "OpenSBold";
+  font-size: 12.5px;
+  text-transform: uppercase;
+}
+main .container-fluid {
+  background: #fcfcfc;
+  height: 1250px;
+}
+main .container-fluid .container .block_how .long_btn .btn-primary {
+  font-family: "SBold";
+  text-transform: uppercase;
+  font-size: 26px;
+  width: 330px;
+  height: 55px;
+  background: #464646;
+}
+main .container-fluid .container .block_how .long_btn .btn-primary.active,
+main .container-fluid .container .block_how .long_btn .btn-primary:active {
+  border: none;
+}
+main .container-fluid .container .block_how .long_btn img {
+  margin-top: 110px;
+}
+main .container-fluid .container .object {
+  margin-top: 50px;
+}
+main .my_container {
+  height: 2020px;
+}
+main .my_container .futures {
+  margin-top: 50px;
+}
+main .my_container .futures .long_btn .btn-primary {
+  font-family: "SBold";
+  text-transform: uppercase;
+  font-size: 26px;
+  width: 330px;
+  height: 55px;
+  background: #464646;
+}
+main .my_container .futures .long_btn .btn-primary.active,
+main .my_container .futures .long_btn .btn-primary:active {
+  border: none;
+}
+main .my_container .futures .long_btn img {
+  margin-top: 110px;
+}

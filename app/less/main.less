@@ -1,0 +1,300 @@
+/*******************FONTS**************************/
+@font-face { 
+    font-family: Bold;        
+    src: url(/fonts/RobotoBold/RobotoBold.ttf); 
+    font-weight: normal;            
+    font-style: normal; 
+}
+@font-face { 
+    font-family: light;        
+    src: url(/fonts/RobotoLight/RobotoLight.ttf); 
+    font-weight: normal;            
+    font-style: normal; 
+}
+@font-face { 
+    font-family: Medium;        
+    src: url(/fonts/RobotoMedium/RobotoMedium.ttf); 
+    font-weight: normal;            
+    font-style: normal; 
+}
+@font-face { 
+    font-family: Regular;        
+    src: url(/fonts/RobotoRegular/RobotoRegular.ttf); 
+    font-weight: normal;            
+    font-style: normal; 
+}
+@font-face { 
+    font-family: Black;        
+    src: url(/fonts/RobotoBlack/robotoblack.ttf); 
+    font-weight: normal;            
+    font-style: normal; 
+}
+@font-face { 
+    font-family: SBold;        
+    src: url(/fonts/SourceSansProBold/SourceSansProBold.ttf); 
+    font-weight: normal;            
+    font-style: normal; 
+}
+@font-face { 
+    font-family: OpenSBold;        
+    src: url(/fonts/OpenSansBold/OpenSansBold.ttf); 
+    font-weight: normal;            
+    font-style: normal; 
+}
+.OpenSBo{
+	font-family:"OpenSBold"
+}
+.SB{
+	font-family:"SBold"
+}
+.Bl{
+	font-family:"Black";
+}
+.Bo{
+	font-family: "Bold"; 
+}
+.Li{
+	font-family: "light";
+}
+.Me{
+	font-family: "Medium";
+}
+.Re{
+	font-family: "Regular";
+}
+/**************************************************/
+
+/**************************************************/
+a:hover, a:focus, a:visited, a:active{
+	color: #000;
+	border-radius: none;
+	text-decoration: none;
+	border:0px;
+	padding: 0px;
+}
+
+/**************************************************/
+
+header{
+	min-height: 680px;
+	background: #ffc038;
+	nav{
+		.container{
+			width: 53.5%;
+			background: #ffc038;
+			margin-top: 50px;
+			.navbar-header{
+				.navbar-brand{
+					text-transform: uppercase;
+					font-size: 26px;
+					.Bl;
+					span1{
+						.Bl;
+						color:#fff;
+						border: 3px solid yellow;
+						padding: 3px 5px;
+					}
+					span2{
+						.Bl;
+						padding-left: 7px;
+						color: #464646;
+					}
+					&:hover{
+						color: #464646;
+					}
+				}
+			}
+		}
+
+	}
+	.navbar-default{
+		min-height: 120px;
+		background: #ffc038;
+		border: none;
+    	box-shadow: none;
+	}
+	.navbar-default .navbar-nav>li>a{
+		text-transform: uppercase;
+		.Bo;
+		font-size:14px;
+		color:#595145;
+		text-align: center;
+	}
+	.container{
+		width: 53.5%;
+		.row{
+			.content_header{
+				padding-top: 15px;
+				.line_up{
+					margin-left: -120px;
+				}
+				.text_header{
+					padding-left: 0px;
+					span{
+						text-transform: uppercase;
+						color:#fff;
+						.Bo;
+						font-size:42px;
+					}
+					p{
+						width: 360px;
+						color:#fff;
+						.Li;
+						font-size:16px;
+					}
+
+					.btn-primary{
+						.Re;
+						font-size:16px;
+						width:150px;
+						height: 50px;
+						background:#464646;
+					}
+					.btn-primary.active, .btn-primary:active{
+						border: none;
+					}
+				}
+				.corusel_my{
+					margin-top: 25px;
+					padding-left: 0px;
+
+					.carousel-indicators{
+						bottom: -55px;
+					}
+					.carousel-control.left{
+						display:none;
+					}
+					.carousel-control.right{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+main{
+	min-height:680px;
+	.container{
+		width: 53.5%;
+		.first_block{
+			height: 300px;
+			.long_btn{
+				// margin-top:140px;
+				.btn-primary{
+					.SB;
+					text-transform: uppercase;
+					font-size:26px;
+					width:330px;
+					height:55px;
+					background:#464646;
+				}
+				.btn-primary.active, .btn-primary:active{
+						border: none;
+				}
+				img{
+					margin-top: 110px;
+				}
+			}
+		}
+		.first_blok2{
+			height: 400px;
+
+			.right_block{
+				span{
+					.Bo;
+					font-size:18px;
+					text-transform: uppercase;
+				}
+				p{
+					padding-top: 10px;
+					.Li;
+					font-size:14px;
+				}
+				.btn-primary{
+					width:150px;
+					height:50px;
+					background:#ffc038;
+					border:none;
+					color:#464646;
+					.OpenSBo;
+					font-size:12.5px;
+					text-transform: uppercase;
+				}
+			}
+		}
+		.second_blok{
+			height:400px;
+			.left_block{
+				span{
+					.Bo;
+					font-size:18px;
+					text-transform: uppercase;
+				}
+				p{
+					padding-top: 10px;
+					.Li;
+					font-size:14px;
+				}
+				.btn-primary{
+					width:150px;
+					height:50px;
+					background:#ffc038;
+					border:none;
+					color:#464646;
+					.OpenSBo;
+					font-size:12.5px;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+	.container-fluid{
+		background: #fcfcfc;
+		height:1250px;
+		.container{
+			.block_how{
+				.long_btn{
+					.btn-primary{
+						.SB;
+						text-transform: uppercase;
+						font-size:26px;
+						width:330px;
+						height:55px;
+						background:#464646;
+					}
+					.btn-primary.active, .btn-primary:active{
+							border: none;
+					}
+					img{
+						margin-top: 110px;
+					}
+				}
+			}
+			.object{
+				margin-top: 50px;
+			}
+		}
+	}
+	.my_container{
+		height:2020px;
+		.futures{
+			margin-top:50px;
+			.long_btn{
+				.btn-primary{
+					.SB;
+					text-transform: uppercase;
+					font-size:26px;
+					width:330px;
+					height:55px;
+					background:#464646;
+				}
+				.btn-primary.active, .btn-primary:active{
+					border: none;
+				}
+				img{
+					margin-top: 110px;
+				}
+			}
+		}
+	}
+}
