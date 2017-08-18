@@ -262,6 +262,9 @@ main .my_container {
 main .my_container .futures {
   margin-top: 50px;
 }
+main .my_container .futures .long_btn {
+  padding-bottom: 80px;
+}
 main .my_container .futures .long_btn .btn-primary {
   font-family: "SBold";
   text-transform: uppercase;
@@ -307,4 +310,69 @@ main .my_container .futures .table_list .col-md-4:hover {
 }
 main .my_container .futures .small_table .list .col-md-12 {
   text-align: center;
+}
+main .my_container .futures .small_table .list .col-md-12 .basic_s,
+main .my_container .futures .small_table .list .col-md-12 .premium_s {
+  font-size: 23px;
+  padding-top: 10px;
+}
+main .my_container .futures .small_table .list .col-md-12 .standart_s {
+  font-size: 27px ;
+  padding-bottom: 12px;
+}
+main .my_container .futures .small_table .list .col-md-12 .col-md-4 {
+  min-height: 49px;
+  border-right: 1px solid #fbc73a;
+}
+main .my_container .futures .small_table .list .col-md-12 .new_s {
+  font-size: 18px;
+}
+main .my_container .futures .small_table .list .col-md-12 .text_c {
+  color: #8d8d8d;
+}
+main .my_container .futures .small_table .list .col-md-12 .text_r {
+  color: #f26c4f;
+}
+main .my_container .futures .small_table .list .col-md-12 .text_y {
+  color: #fbc73a;
+}
+main .my_container .futures .small_table .list .col-md-12 .fonts1 {
+  font-family: "Regular";
+}
+main .my_container .futures .small_table .list .col-md-12 .inside_b {
+  border-bottom: 1px solid #fbc73a;
+  padding-top: 15px;
+}
+main .my_container .futures .small_table .list .value .col-md-4:not(.text_r) {
+  font-family: "Medium";
+  font-size: 27px;
+  padding-top: 30px;
+}
+main .my_container .futures .small_table .list .value .text_r {
+  font-family: "Medium";
+  font-size: 30px;
+  padding-top: 45px;
+}
+main .my_container .futures .small_table .list .new_btn .col-md-4 {
+  border-right: none;
+  margin-top: 40px;
+}
+main .my_container .futures .small_table .list .new_btn .col-md-4 .btn-primary {
+  width: 65%;
+  height: 45px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Bold";
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+main .my_container .futures .small_table .list .new_btn .col-md-4 .first_btn {
+  background: #8d8d8d;
+}
+main .my_container .futures .small_table .list .new_btn .col-md-4 .second_btn {
+  background: #f26c4f;
+}
+main .my_container .futures .small_table .list .new_btn .col-md-4 .three_btn {
+  background: #fbc73a;
 }
