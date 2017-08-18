@@ -69,8 +69,7 @@ a:focus,
 a:visited,
 a:active {
   color: #000;
-  -webkit-border-radius: none;
-          border-radius: none;
+  border-radius: none;
   text-decoration: none;
   border: 0px;
   padding: 0px;
@@ -108,8 +107,7 @@ header .navbar-default {
   min-height: 120px;
   background: #ffc038;
   border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 header .navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
