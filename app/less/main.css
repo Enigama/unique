@@ -235,7 +235,7 @@ main .container .second_blok .left_block .btn-primary {
   text-transform: uppercase;
 }
 main .container-fluid {
-  background: #fcfcfc;
+  background-image: url("/img/bag.png");
   height: 1250px;
 }
 main .container-fluid .container .block_how .long_btn .btn-primary {
@@ -257,7 +257,7 @@ main .container-fluid .container .object {
   margin-top: 50px;
 }
 main .my_container {
-  height: 2020px;
+  height: 1950px;
 }
 main .my_container .futures {
   margin-top: 50px;
@@ -318,7 +318,7 @@ main .my_container .futures .small_table .list .col-md-12 .premium_s {
 }
 main .my_container .futures .small_table .list .col-md-12 .standart_s {
   font-size: 27px ;
-  padding-bottom: 12px;
+  padding-bottom: 11px;
 }
 main .my_container .futures .small_table .list .col-md-12 .col-md-4 {
   min-height: 49px;
@@ -375,4 +375,90 @@ main .my_container .futures .small_table .list .new_btn .col-md-4 .second_btn {
 }
 main .my_container .futures .small_table .list .new_btn .col-md-4 .three_btn {
   background: #fbc73a;
+}
+main .history {
+  height: 550px;
+}
+main .history .container-fluid {
+  height: 550px;
+  background-image: url("/img/bag.png");
+}
+main .history .container-fluid .container .our_history .col-md-12 {
+  margin-top: 60px;
+}
+main .history .container-fluid .container .our_history .col-md-12 .img_bag img {
+  width: 452px;
+  height: 438px;
+}
+main .history .container-fluid .container .our_history .col-md-12 .info_history .black_btn {
+  background: #464646;
+  width: 220px;
+  height: 55px;
+  text-transform: uppercase;
+}
+main .history .container-fluid .container .our_history .col-md-12 .info_history .new_btn {
+  width: 190px;
+  height: 50px;
+  background: #ffc038;
+  border: none;
+  color: #464646;
+  font-family: "OpenSBold";
+  font-size: 12.5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+main .bisnes_projekt .container-fluid {
+  background: #fff;
+}
+main .bisnes_projekt .container-fluid .container .row .col-md-12 .col-md-8 {
+  margin-top: 100px;
+}
+main .bisnes_projekt .container-fluid .container .row .col-md-12 .col-md-8 .btn-primary {
+  font-family: "SBold";
+  text-transform: uppercase;
+  font-size: 26px;
+  width: 450px;
+  height: 55px;
+  background: #464646;
+}
+main .bisnes_projekt .container-fluid .container .row .col-md-12 .col-md-8 img {
+  margin-top: 100px;
+}
+main .bisnes_projekt .container-fluid .container .new_row {
+  margin-top: 50px;
+}
+main .bisnes_projekt .my_fluid {
+  background: #fbc73a;
+  height: 220px;
+  margin-top: 80px;
+}
+main .bisnes_projekt .my_fluid .container {
+  text-align: center;
+}
+main .bisnes_projekt .my_fluid .container .icon_bloc {
+  display: inline-grid;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+main .bisnes_projekt .my_fluid .container .icon_bloc span {
+  color: #fff;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+main .bisnes_projekt .releted .row .col-md-12 .col-md-8 {
+  text-align: center;
+}
+main .bisnes_projekt .releted .row .col-md-12 .col-md-8 .btn-primary {
+  font-family: "SBold";
+  text-transform: uppercase;
+  font-size: 26px;
+  width: 450px;
+  height: 55px;
+  background: #464646;
+}
+main .bisnes_projekt .releted .row .col-md-12 .col-md-8 img {
+  margin-top: 100px;
+}
+main .bisnes_projekt .releted .second_blok {
+  margin-top: 50px;
 }
