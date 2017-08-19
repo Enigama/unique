@@ -445,7 +445,12 @@ main .bisnes_projekt .my_fluid .container .icon_bloc span {
   padding-top: 5px;
   text-transform: uppercase;
 }
+main .bisnes_projekt .releted .row .col-md-12 .right_block img {
+  width: 457px;
+  height: 270px;
+}
 main .bisnes_projekt .releted .row .col-md-12 .col-md-8 {
+  width: 60%;
   text-align: center;
 }
 main .bisnes_projekt .releted .row .col-md-12 .col-md-8 .btn-primary {
@@ -461,4 +466,43 @@ main .bisnes_projekt .releted .row .col-md-12 .col-md-8 img {
 }
 main .bisnes_projekt .releted .second_blok {
   margin-top: 50px;
+}
+main .bisnes_projekt .releted .color_ {
+  height: 690px;
+}
+main .bisnes_projekt .releted .color_ .last {
+  height: 594px;
+}
+main .bisnes_projekt .releted .color_ .last img {
+  width: 980px;
+  height: 700px;
+}
+main .bisnes_projekt .releted .color_ .line_y {
+  height: 65px;
+  width: 98.7%;
+}
+main .bisnes_projekt .releted .color_ .line_y .container {
+  width: 100%;
+  height: 65px;
+  background: #fbc73a;
+}
+main .bisnes_projekt .releted .color_ .line_y .container h1 {
+  font-size: 22px;
+  font-family: "OpenSBold";
+  text-transform: uppercase;
+  color: #fff;
+  padding-left: 45px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+main .bisnes_projekt .releted .color_ .line_y .container .btn {
+  float: right;
+  width: 160px;
+  height: 50px;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "OpenSBold";
+  font-size: 20px;
+  margin-top: 7px;
 }
