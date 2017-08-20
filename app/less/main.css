@@ -257,7 +257,7 @@ main .container-fluid .container .object {
   margin-top: 50px;
 }
 main .my_container {
-  height: 1950px;
+  height: 1830px;
 }
 main .my_container .futures {
   margin-top: 50px;
@@ -468,25 +468,22 @@ main .bisnes_projekt .releted .second_blok {
   margin-top: 50px;
 }
 main .bisnes_projekt .releted .color_ {
-  height: 690px;
+  height: 800px;
 }
 main .bisnes_projekt .releted .color_ .last {
   height: 594px;
 }
 main .bisnes_projekt .releted .color_ .last img {
-  width: 980px;
-  height: 700px;
+  width: 982px;
+  height: 595px;
 }
 main .bisnes_projekt .releted .color_ .line_y {
-  height: 65px;
-  width: 98.7%;
-}
-main .bisnes_projekt .releted .color_ .line_y .container {
-  width: 100%;
+  width: 96.5%;
+  margin-left: 14px;
   height: 65px;
   background: #fbc73a;
 }
-main .bisnes_projekt .releted .color_ .line_y .container h1 {
+main .bisnes_projekt .releted .color_ .line_y h1 {
   font-size: 22px;
   font-family: "OpenSBold";
   text-transform: uppercase;
@@ -496,7 +493,7 @@ main .bisnes_projekt .releted .color_ .line_y .container h1 {
   margin-top: 20px;
   margin-bottom: 0px;
 }
-main .bisnes_projekt .releted .color_ .line_y .container .btn {
+main .bisnes_projekt .releted .color_ .line_y .btn {
   float: right;
   width: 160px;
   height: 50px;
@@ -505,4 +502,54 @@ main .bisnes_projekt .releted .color_ .line_y .container .btn {
   font-family: "OpenSBold";
   font-size: 20px;
   margin-top: 7px;
+}
+footer .container {
+  width: 100%;
+  text-align: center;
+  height: 400px;
+  background: #363636;
+}
+footer .container .row {
+  margin: 0 auto;
+  width: 53%;
+}
+footer .container .row .col-md-12 {
+  text-align: left;
+  padding-left: 5px;
+}
+footer .container .row .col-md-12 .col-md-3 {
+  padding-left: 0px;
+}
+footer .container .row .col-md-12 .col-md-3 ul {
+  margin-top: 40px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+footer .container .row .col-md-12 .col-md-3 ul h1 {
+  color: #e6e9ed;
+  font-size: 18px;
+}
+footer .container .row .col-md-12 .col-md-3 ul li {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #aab2bd;
+}
+footer .container .social {
+  margin-top: 50px;
+}
+footer .container .social .col-md-12 {
+  text-align: center;
+  padding-left: 15px;
+}
+footer .container .social .col-md-12 img {
+  margin-right: 10px;
+}
+footer .container .copyright_ {
+  margin-top: 30px;
+}
+footer .container .copyright_ .col-md-12 {
+  text-align: center;
+}
+footer .container .copyright_ .col-md-12 span {
+  color: #fff;
 }
