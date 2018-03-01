@@ -1,43 +1,43 @@
 /*******************FONTS**************************/
 @font-face {
   font-family: Bold;
-  src: url(/fonts/RobotoBold/RobotoBold.ttf);
+  src: url(../fonts/RobotoBold/RobotoBold.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: light;
-  src: url(/fonts/RobotoLight/RobotoLight.ttf);
+  src: url(../fonts/RobotoLight/RobotoLight.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Medium;
-  src: url(/fonts/RobotoMedium/RobotoMedium.ttf);
+  src: url(../fonts/RobotoMedium/RobotoMedium.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Regular;
-  src: url(/fonts/RobotoRegular/RobotoRegular.ttf);
+  src: url(../fonts/RobotoRegular/RobotoRegular.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Black;
-  src: url(/fonts/RobotoBlack/robotoblack.ttf);
+  src: url(../fonts/RobotoBlack/robotoblack.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: SBold;
-  src: url(/fonts/SourceSansProBold/SourceSansProBold.ttf);
+  src: url(../fonts/SourceSansProBold/SourceSansProBold.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: OpenSBold;
-  src: url(/fonts/OpenSansBold/OpenSansBold.ttf);
+  src: url(../fonts/OpenSansBold/OpenSansBold.ttf);
   font-weight: normal;
   font-style: normal;
 }
@@ -69,8 +69,8 @@ a:focus,
 a:visited,
 a:active {
   color: #000;
-  -webkit-border-radius: none;
-          border-radius: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   text-decoration: none;
   border: 0px;
   padding: 0px;
@@ -478,7 +478,7 @@ main .bisnes_projekt .releted .color_ .last {
   height: 594px;
 }
 main .bisnes_projekt .releted .color_ .last img {
-  width: 982px;
+  width: 949px;
   height: 595px;
 }
 main .bisnes_projekt .releted .color_ .line_y {
